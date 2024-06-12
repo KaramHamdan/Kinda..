@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            direction: rtl; /* المحاذاة من اليمين إلى اليسار */
+        }
+        .navbar {
+            background-color: #333; /* لون الشريط */
+            overflow: hidden;
+        }
+        .navbar a {
+            float: right; /* المحاذاة من اليمين إلى اليسار */
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd; /* تأثير حيوي عند التحويم */
+            color: black;
+        }
+        @media screen and (max-width: 600px) {
+            .navbar a {
+                float: none; /* تجميع الأزرار عند تصغير الشاشة */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">القائمة 1</a>
+        <a href="#">القائمة 2</a>
+    </div>
+</body>
+</html>
